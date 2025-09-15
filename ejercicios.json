@@ -1,0 +1,2062 @@
+[
+{
+    "id": 1,
+    "title": "Hola Mundo",
+    "summary": "Imprime 'Hola Mundo' en consola",
+    "description": "Crea un programa en Java que imprima el texto 'Hola Mundo' en la consola.",
+    "category": "variables",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 2,
+    "title": "Suma de dos números",
+    "summary": "Lee dos números y muestra su suma",
+    "description": "Escribe un programa que pida al usuario dos números enteros y muestre su suma en pantalla.",
+    "category": "variables",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+},
+  {
+    "id": 3,
+    "title": "Número par o impar",
+    "summary": "Determina si un número es par o impar",
+    "description": "Escribe un programa que pida un número entero al usuario y muestre si es par o impar.",
+    "category": "condicionales",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 4,
+    "title": "Máximo de dos números",
+    "summary": "Encuentra el número mayor entre dos",
+    "description": "Escribe un programa que lea dos números enteros y muestre cuál de los dos es mayor.",
+    "category": "condicionales",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 5,
+    "title": "Tabla de multiplicar",
+    "summary": "Imprime la tabla de multiplicar de un número",
+    "description": "Escribe un programa que lea un número entero y muestre su tabla de multiplicar del 1 al 10.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 6,
+    "title": "Contar hasta N",
+    "summary": "Imprime los números del 1 hasta un número dado",
+    "description": "Escribe un programa que pida al usuario un número entero N y muestre los números del 1 al N.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 7,
+    "title": "Suma de 1 a N",
+    "summary": "Suma todos los números desde 1 hasta N",
+    "description": "Escribe un programa que pida un número N y calcule la suma de todos los números desde 1 hasta N.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 8,
+    "title": "Calcular el factorial",
+    "summary": "Calcula el factorial de un número",
+    "description": "Escribe un programa que calcule el factorial de un número introducido por el usuario.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 9,
+    "title": "Mayor de tres números",
+    "summary": "Encuentra el número mayor entre tres enteros",
+    "description": "Escribe un programa que pida tres números y muestre cuál de ellos es el mayor.",
+    "category": "condicionales",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 10,
+    "title": "Número positivo, negativo o cero",
+    "summary": "Clasifica un número como positivo, negativo o cero",
+    "description": "Escribe un programa que pida un número y muestre si es positivo, negativo o cero.",
+    "category": "condicionales",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 11,
+    "title": "Calcular promedio",
+    "summary": "Calcula el promedio de tres números",
+    "description": "Escribe un programa que pida tres números y muestre su promedio.",
+    "category": "variables",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 12,
+    "title": "Conversión de grados Celsius a Fahrenheit",
+    "summary": "Convierte temperaturas de Celsius a Fahrenheit",
+    "description": "Escribe un programa que convierta una temperatura dada en grados Celsius a Fahrenheit.",
+    "category": "variables",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 13,
+    "title": "Contar dígitos",
+    "summary": "Cuenta la cantidad de dígitos de un número",
+    "description": "Escribe un programa que pida un número entero y muestre cuántos dígitos tiene.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 14,
+    "title": "Números pares hasta N",
+    "summary": "Muestra todos los números pares desde 1 hasta N",
+    "description": "Escribe un programa que muestre todos los números pares desde 1 hasta un número N ingresado por el usuario.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 15,
+    "title": "Números impares hasta N",
+    "summary": "Muestra todos los números impares desde 1 hasta N",
+    "description": "Escribe un programa que muestre todos los números impares desde 1 hasta un número N ingresado por el usuario.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 16,
+    "title": "Menú con switch",
+    "summary": "Crea un menú interactivo con switch",
+    "description": "Escribe un programa que muestre un menú con 3 opciones y use un switch para ejecutar la acción correspondiente.",
+    "category": "switch",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 17,
+    "title": "Día de la semana",
+    "summary": "Muestra el día de la semana según un número",
+    "description": "Escribe un programa que pida un número del 1 al 7 y muestre el día de la semana correspondiente usando switch.",
+    "category": "switch",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 18,
+    "title": "Mes del año",
+    "summary": "Muestra el nombre del mes según un número",
+    "description": "Escribe un programa que pida un número del 1 al 12 y muestre el nombre del mes correspondiente usando switch.",
+    "category": "switch",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 19,
+    "title": "Calculadora básica",
+    "summary": "Realiza operaciones básicas según la opción elegida",
+    "description": "Escribe un programa que pida dos números y una operación (+, -, *, /) y muestre el resultado usando switch.",
+    "category": "switch",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 20,
+    "title": "Números primos hasta N",
+    "summary": "Muestra todos los números primos hasta N",
+    "description": "Escribe un programa que muestre todos los números primos hasta un número N ingresado por el usuario.",
+    "category": "bucles_condicionales",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 21,
+    "title": "Contador de vocales",
+    "summary": "Cuenta las vocales en una palabra",
+    "description": "Escribe un programa que pida una palabra y muestre cuántas vocales contiene.",
+    "category": "bucles_condicionales",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 22,
+    "title": "Invertir número",
+    "summary": "Invierte los dígitos de un número",
+    "description": "Escribe un programa que invierta los dígitos de un número entero ingresado por el usuario.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 23,
+    "title": "Invertir palabra",
+    "summary": "Invierte el texto de una palabra",
+    "description": "Escribe un programa que pida una palabra y la muestre invertida.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 24,
+    "title": "Número capicúa",
+    "summary": "Verifica si un número es capicúa",
+    "description": "Escribe un programa que verifique si un número entero es capicúa (palíndromo numérico).",
+    "category": "condicionales",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 25,
+    "title": "Contador regresivo",
+    "summary": "Cuenta hacia atrás desde N hasta 0",
+    "description": "Escribe un programa que muestre un contador regresivo desde un número N hasta 0.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 26,
+    "title": "Suma de dígitos",
+    "summary": "Suma los dígitos de un número entero",
+    "description": "Escribe un programa que pida un número entero y calcule la suma de sus dígitos.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 27,
+    "title": "Número perfecto",
+    "summary": "Verifica si un número es perfecto",
+    "description": "Un número perfecto es aquel que es igual a la suma de sus divisores propios. Escribe un programa que verifique si un número es perfecto.",
+    "category": "bucles_condicionales",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 28,
+    "title": "Números de Fibonacci",
+    "summary": "Imprime la secuencia de Fibonacci hasta N términos",
+    "description": "Escribe un programa que muestre los primeros N términos de la secuencia de Fibonacci.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 29,
+    "title": "Suma de pares hasta N",
+    "summary": "Calcula la suma de todos los números pares hasta N",
+    "description": "Escribe un programa que sume todos los números pares desde 1 hasta un número N.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 30,
+    "title": "Suma de impares hasta N",
+    "summary": "Calcula la suma de todos los números impares hasta N",
+    "description": "Escribe un programa que sume todos los números impares desde 1 hasta un número N.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 31,
+    "title": "Divisores de un número",
+    "summary": "Muestra todos los divisores de un número",
+    "description": "Escribe un programa que pida un número entero y muestre todos sus divisores.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 32,
+    "title": "Número primo",
+    "summary": "Verifica si un número es primo",
+    "description": "Escribe un programa que determine si un número entero es primo o no.",
+    "category": "bucles_condicionales",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 33,
+    "title": "Mayor y menor de N números",
+    "summary": "Encuentra el mayor y menor entre varios números",
+    "description": "Escribe un programa que pida al usuario N números y muestre cuál es el mayor y cuál el menor.",
+    "category": "bucles_condicionales",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 34,
+    "title": "Promedio de N números",
+    "summary": "Calcula el promedio de varios números",
+    "description": "Escribe un programa que pida al usuario N números y muestre el promedio.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 35,
+    "title": "Multiplicación por sumas",
+    "summary": "Simula la multiplicación usando sumas repetidas",
+    "description": "Escribe un programa que multiplique dos números enteros usando sumas sucesivas.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 36,
+    "title": "División por restas",
+    "summary": "Simula la división usando restas repetidas",
+    "description": "Escribe un programa que divida dos números enteros usando restas sucesivas.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 37,
+    "title": "Potencia por multiplicaciones",
+    "summary": "Calcula potencias usando multiplicaciones sucesivas",
+    "description": "Escribe un programa que calcule la potencia de un número (base^exponente) usando multiplicaciones sucesivas.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 38,
+    "title": "Cuenta de caracteres",
+    "summary": "Cuenta cuántos caracteres tiene una palabra",
+    "description": "Escribe un programa que pida una palabra y muestre la cantidad de caracteres que tiene.",
+    "category": "variables",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 39,
+    "title": "Invertir cadena",
+    "summary": "Invierte los caracteres de una cadena de texto",
+    "description": "Escribe un programa que invierta una cadena ingresada por el usuario.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 40,
+    "title": "Contar consonantes",
+    "summary": "Cuenta el número de consonantes en una palabra",
+    "description": "Escribe un programa que pida una palabra y cuente cuántas consonantes contiene.",
+    "category": "bucles_condicionales",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 41,
+    "title": "Contar palabras",
+    "summary": "Cuenta cuántas palabras hay en una frase",
+    "description": "Escribe un programa que pida una frase y cuente cuántas palabras tiene.",
+    "category": "bucles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 42,
+    "title": "Conversión de minutos a horas",
+    "summary": "Convierte minutos en horas y minutos",
+    "description": "Escribe un programa que pida un número de minutos y lo convierta en horas y minutos.",
+    "category": "variables",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 43,
+    "title": "Área de un círculo",
+    "summary": "Calcula el área de un círculo dado su radio",
+    "description": "Escribe un programa que pida el radio de un círculo y calcule su área.",
+    "category": "variables",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 44,
+    "title": "Área de un triángulo",
+    "summary": "Calcula el área de un triángulo",
+    "description": "Escribe un programa que pida la base y altura de un triángulo y calcule su área.",
+    "category": "variables",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 45,
+    "title": "Área de un rectángulo",
+    "summary": "Calcula el área de un rectángulo",
+    "description": "Escribe un programa que pida la base y altura de un rectángulo y calcule su área.",
+    "category": "variables",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 46,
+    "title": "Convertir días en semanas",
+    "summary": "Convierte un número de días en semanas y días",
+    "description": "Escribe un programa que convierta una cantidad de días en semanas y días.",
+    "category": "variables",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 47,
+    "title": "Número Armstrong",
+    "summary": "Verifica si un número es Armstrong",
+    "description": "Un número Armstrong es aquel que es igual a la suma de sus dígitos elevados a la cantidad de dígitos. Escribe un programa que verifique si un número es Armstrong.",
+    "category": "bucles_condicionales",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 48,
+    "title": "Número palíndromo",
+    "summary": "Verifica si una palabra es palíndroma",
+    "description": "Escribe un programa que verifique si una palabra es palíndroma (se lee igual al derecho y al revés).",
+    "category": "bucles_condicionales",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 49,
+    "title": "Número aleatorio",
+    "summary": "Genera un número aleatorio entre 1 y 100",
+    "description": "Escribe un programa que genere y muestre un número aleatorio entre 1 y 100.",
+    "category": "variables",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 50,
+    "title": "Adivina el número",
+    "summary": "Juego de adivinar un número aleatorio",
+    "description": "Escribe un programa que genere un número aleatorio entre 1 y 100 y pida al usuario adivinarlo, mostrando pistas de mayor o menor.",
+    "category": "bucles_condicionales",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 51,
+    "title": "Suma de elementos en un array",
+    "summary": "Calcula la suma de todos los elementos de un array",
+    "description": "Escribe un programa que lea un array de enteros y muestre la suma de sus elementos.",
+    "category": "arrays",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 52,
+    "title": "Promedio de un array",
+    "summary": "Calcula el promedio de los elementos de un array",
+    "description": "Escribe un programa que calcule el promedio de los valores en un array de enteros.",
+    "category": "arrays",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 53,
+    "title": "Máximo en un array",
+    "summary": "Encuentra el valor máximo en un array",
+    "description": "Escribe un programa que determine el valor máximo dentro de un array de enteros.",
+    "category": "arrays",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 54,
+    "title": "Mínimo en un array",
+    "summary": "Encuentra el valor mínimo en un array",
+    "description": "Escribe un programa que determine el valor mínimo dentro de un array de enteros.",
+    "category": "arrays",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 55,
+    "title": "Buscar un elemento",
+    "summary": "Verifica si un número está en un array",
+    "description": "Escribe un programa que busque un número específico dentro de un array de enteros.",
+    "category": "arrays",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 56,
+    "title": "Invertir array",
+    "summary": "Invierte los elementos de un array",
+    "description": "Escribe un programa que invierta los elementos de un array de enteros.",
+    "category": "arrays",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 57,
+    "title": "Contar pares e impares en un array",
+    "summary": "Cuenta cuántos números pares e impares hay en un array",
+    "description": "Escribe un programa que cuente la cantidad de números pares e impares en un array de enteros.",
+    "category": "arrays",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 58,
+    "title": "Eliminar duplicados de un array",
+    "summary": "Crea un nuevo array sin elementos repetidos",
+    "description": "Escribe un programa que elimine los elementos duplicados en un array de enteros.",
+    "category": "arrays",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 59,
+    "title": "Ordenar array ascendente",
+    "summary": "Ordena los elementos de un array en orden ascendente",
+    "description": "Escribe un programa que ordene un array de enteros en orden ascendente.",
+    "category": "arrays",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 60,
+    "title": "Ordenar array descendente",
+    "summary": "Ordena los elementos de un array en orden descendente",
+    "description": "Escribe un programa que ordene un array de enteros en orden descendente.",
+    "category": "arrays",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 61,
+    "title": "Suma de dos arrays",
+    "summary": "Suma elemento a elemento dos arrays",
+    "description": "Escribe un programa que sume dos arrays de la misma longitud, generando un nuevo array con los resultados.",
+    "category": "arrays",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 62,
+    "title": "Producto escalar",
+    "summary": "Calcula el producto escalar de dos arrays",
+    "description": "Escribe un programa que calcule el producto escalar de dos arrays de enteros de la misma longitud.",
+    "category": "arrays",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 63,
+    "title": "Matriz identidad",
+    "summary": "Genera una matriz identidad de tamaño N",
+    "description": "Escribe un programa que genere una matriz identidad (diagonal con 1 y demás en 0) de tamaño N.",
+    "category": "matrices",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 64,
+    "title": "Suma de matrices",
+    "summary": "Suma dos matrices de igual tamaño",
+    "description": "Escribe un programa que sume dos matrices de enteros de tamaño N x M y muestre la matriz resultante.",
+    "category": "matrices",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 65,
+    "title": "Transposición de matriz",
+    "summary": "Calcula la transpuesta de una matriz",
+    "description": "Escribe un programa que calcule la transpuesta de una matriz de enteros.",
+    "category": "matrices",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 66,
+    "title": "Multiplicación de matrices",
+    "summary": "Multiplica dos matrices compatibles",
+    "description": "Escribe un programa que multiplique dos matrices (si son compatibles en dimensiones).",
+    "category": "matrices",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 67,
+    "title": "Diagonal principal de una matriz",
+    "summary": "Muestra los elementos de la diagonal principal",
+    "description": "Escribe un programa que muestre los elementos de la diagonal principal de una matriz cuadrada.",
+    "category": "matrices",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 68,
+    "title": "Diagonal secundaria de una matriz",
+    "summary": "Muestra los elementos de la diagonal secundaria",
+    "description": "Escribe un programa que muestre los elementos de la diagonal secundaria de una matriz cuadrada.",
+    "category": "matrices",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 69,
+    "title": "Suma de filas",
+    "summary": "Calcula la suma de cada fila de una matriz",
+    "description": "Escribe un programa que calcule la suma de cada fila en una matriz de enteros.",
+    "category": "matrices",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 70,
+    "title": "Suma de columnas",
+    "summary": "Calcula la suma de cada columna de una matriz",
+    "description": "Escribe un programa que calcule la suma de cada columna en una matriz de enteros.",
+    "category": "matrices",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 71,
+    "title": "Número más grande en una matriz",
+    "summary": "Encuentra el número más grande en una matriz",
+    "description": "Escribe un programa que encuentre el número más grande dentro de una matriz de enteros.",
+    "category": "matrices",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 72,
+    "title": "Número más pequeño en una matriz",
+    "summary": "Encuentra el número más pequeño en una matriz",
+    "description": "Escribe un programa que encuentre el número más pequeño dentro de una matriz de enteros.",
+    "category": "matrices",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 73,
+    "title": "Rotar matriz",
+    "summary": "Rota una matriz 90 grados",
+    "description": "Escribe un programa que rote una matriz cuadrada 90 grados en sentido horario.",
+    "category": "matrices",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 74,
+    "title": "Método suma",
+    "summary": "Crea un método que sume dos números",
+    "description": "Escribe un método en Java que reciba dos números enteros y devuelva su suma.",
+    "category": "metodos",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 75,
+    "title": "Método esPar",
+    "summary": "Crea un método que verifique si un número es par",
+    "description": "Escribe un método en Java que reciba un número entero y devuelva true si es par, o false si no lo es.",
+    "category": "metodos",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 76,
+    "title": "Método esPrimo",
+    "summary": "Verifica si un número es primo",
+    "description": "Escribe un método que reciba un número entero y devuelva true si es primo, false en caso contrario.",
+    "category": "metodos",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 77,
+    "title": "Método factorial",
+    "summary": "Calcula el factorial de un número",
+    "description": "Escribe un método que reciba un número entero y devuelva su factorial.",
+    "category": "metodos",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 78,
+    "title": "Método potencia",
+    "summary": "Calcula la potencia de un número",
+    "description": "Escribe un método que reciba dos enteros base y exponente, y devuelva la base elevada al exponente.",
+    "category": "metodos",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 79,
+    "title": "Método Fibonacci",
+    "summary": "Genera el enésimo número de Fibonacci",
+    "description": "Escribe un método que reciba un número n y devuelva el n-ésimo término de la serie Fibonacci.",
+    "category": "metodos",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 80,
+    "title": "Método invertirCadena",
+    "summary": "Invierte un string",
+    "description": "Escribe un método que reciba un String y lo devuelva invertido.",
+    "category": "strings",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 81,
+    "title": "Método contarVocales",
+    "summary": "Cuenta cuántas vocales tiene un string",
+    "description": "Escribe un método que reciba un String y devuelva cuántas vocales contiene.",
+    "category": "strings",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 82,
+    "title": "Método contarPalabras",
+    "summary": "Cuenta las palabras de una cadena",
+    "description": "Escribe un método que reciba un String y devuelva cuántas palabras tiene (separadas por espacio).",
+    "category": "strings",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 83,
+    "title": "Método esPalindromo",
+    "summary": "Verifica si un string es palíndromo",
+    "description": "Escribe un método que reciba un String y devuelva true si es un palíndromo, false en caso contrario.",
+    "category": "strings",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 84,
+    "title": "Contar dígitos",
+    "summary": "Cuenta los dígitos de un número entero",
+    "description": "Escribe un programa que reciba un número entero y muestre cuántos dígitos tiene.",
+    "category": "numeros",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 85,
+    "title": "Suma de dígitos",
+    "summary": "Suma los dígitos de un número entero",
+    "description": "Escribe un programa que reciba un número entero y calcule la suma de sus dígitos.",
+    "category": "numeros",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 86,
+    "title": "Número invertido",
+    "summary": "Invierte los dígitos de un número entero",
+    "description": "Escribe un programa que reciba un número entero y lo muestre con sus dígitos invertidos.",
+    "category": "numeros",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 87,
+    "title": "Número Armstrong",
+    "summary": "Verifica si un número es Armstrong",
+    "description": "Escribe un programa que verifique si un número entero es un número Armstrong (la suma de sus dígitos elevados a la cantidad de dígitos es igual al número).",
+    "category": "numeros",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 88,
+    "title": "Número perfecto",
+    "summary": "Verifica si un número es perfecto",
+    "description": "Escribe un programa que determine si un número entero es perfecto (la suma de sus divisores propios es igual al número).",
+    "category": "numeros",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 89,
+    "title": "Número capicúa",
+    "summary": "Verifica si un número es capicúa",
+    "description": "Escribe un programa que determine si un número entero es capicúa (se lee igual de izquierda a derecha que al revés).",
+    "category": "numeros",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 90,
+    "title": "Serie triangular",
+    "summary": "Genera la serie de números triangulares",
+    "description": "Escribe un programa que muestre los primeros N números triangulares.",
+    "category": "series",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 91,
+    "title": "Serie de cuadrados",
+    "summary": "Genera los primeros N cuadrados",
+    "description": "Escribe un programa que muestre los primeros N números cuadrados perfectos.",
+    "category": "series",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 92,
+    "title": "Serie de cubos",
+    "summary": "Genera los primeros N cubos",
+    "description": "Escribe un programa que muestre los primeros N números cúbicos.",
+    "category": "series",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 93,
+    "title": "Serie de factoriales",
+    "summary": "Genera los factoriales de los primeros N números",
+    "description": "Escribe un programa que muestre los factoriales de los primeros N números enteros.",
+    "category": "series",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 94,
+    "title": "Conversión a binario",
+    "summary": "Convierte un número entero a binario",
+    "description": "Escribe un programa que reciba un número entero y lo convierta a su representación en binario.",
+    "category": "conversiones",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 95,
+    "title": "Conversión a octal",
+    "summary": "Convierte un número entero a octal",
+    "description": "Escribe un programa que reciba un número entero y lo convierta a su representación en octal.",
+    "category": "conversiones",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 96,
+    "title": "Conversión a hexadecimal",
+    "summary": "Convierte un número entero a hexadecimal",
+    "description": "Escribe un programa que reciba un número entero y lo convierta a su representación en hexadecimal.",
+    "category": "conversiones",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 97,
+    "title": "Contar letras en cadena",
+    "summary": "Cuenta la cantidad de letras de un string",
+    "description": "Escribe un programa que cuente la cantidad de letras (ignorando espacios) en una cadena.",
+    "category": "strings",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 98,
+    "title": "Eliminar espacios de un string",
+    "summary": "Elimina los espacios en blanco de un string",
+    "description": "Escribe un programa que reciba un String y devuelva el mismo sin espacios en blanco.",
+    "category": "strings",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 99,
+    "title": "Reemplazar vocales por asterisco",
+    "summary": "Reemplaza todas las vocales por *",
+    "description": "Escribe un programa que reemplace todas las vocales de un string por el carácter '*'.",
+    "category": "strings",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 100,
+    "title": "Comparar dos cadenas",
+    "summary": "Verifica si dos cadenas son iguales",
+    "description": "Escribe un programa que compare dos strings y muestre si son iguales o diferentes.",
+    "category": "strings",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 101,
+    "title": "Clase Persona",
+    "summary": "Crea una clase Persona con atributos básicos",
+    "description": "Crea una clase Persona con los atributos nombre, edad y DNI. Implementa métodos para mostrar los datos y comprobar si es mayor de edad.",
+    "category": "poo",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 102,
+    "title": "Clase Coche",
+    "summary": "Clase que modela un coche",
+    "description": "Crea una clase Coche con atributos marca, modelo y velocidad. Implementa métodos para acelerar, frenar y mostrar información.",
+    "category": "poo",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 103,
+    "title": "Clase CuentaBancaria",
+    "summary": "Modela una cuenta bancaria",
+    "description": "Crea una clase CuentaBancaria con atributos titular y saldo. Implementa métodos para ingresar dinero, retirar dinero y mostrar el saldo.",
+    "category": "poo",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 104,
+    "title": "Clase Rectángulo",
+    "summary": "Clase con cálculo de área y perímetro",
+    "description": "Crea una clase Rectangulo con atributos base y altura. Implementa métodos para calcular el área y el perímetro.",
+    "category": "poo",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 105,
+    "title": "Clase Estudiante",
+    "summary": "Modela un estudiante con calificaciones",
+    "description": "Crea una clase Estudiante con atributos nombre, edad y una lista de calificaciones. Implementa un método para calcular el promedio.",
+    "category": "poo",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 106,
+    "title": "Clase Libro",
+    "summary": "Clase que representa un libro",
+    "description": "Crea una clase Libro con atributos título, autor y número de páginas. Implementa un método mostrarInfo().",
+    "category": "poo",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 107,
+    "title": "Clase Empleado",
+    "summary": "Empleado con cálculo de salario",
+    "description": "Crea una clase Empleado con atributos nombre, puesto y salario base. Implementa un método que calcule el salario anual.",
+    "category": "poo",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 108,
+    "title": "Herencia Animal",
+    "summary": "Crea una jerarquía de animales",
+    "description": "Crea una clase Animal con atributos nombre y edad. Luego crea clases Perro y Gato que hereden de Animal y añadan comportamientos específicos.",
+    "category": "poo",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 109,
+    "title": "Interfaz Figura",
+    "summary": "Define interfaz para figuras geométricas",
+    "description": "Crea una interfaz Figura con métodos area() y perimetro(). Implementa las clases Circulo y Rectangulo.",
+    "category": "poo",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 110,
+    "title": "Clase Inventario",
+    "summary": "Gestión de inventario con ArrayList",
+    "description": "Crea una clase Inventario que use un ArrayList para almacenar productos. Cada producto tiene nombre y cantidad. Implementa métodos para agregar, eliminar y mostrar productos.",
+    "category": "estructuras_datos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 111,
+    "title": "Lista de tareas",
+    "summary": "Gestión de tareas con ArrayList",
+    "description": "Crea un programa que use un ArrayList para almacenar tareas. Cada tarea tiene título y estado (pendiente o completada). Permite agregar y marcar como completada.",
+    "category": "estructuras_datos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 112,
+    "title": "Mapa de notas",
+    "summary": "Asocia alumnos con calificaciones",
+    "description": "Crea un programa que use un HashMap para asociar nombres de alumnos con sus notas. Permite agregar alumnos, mostrar sus notas y calcular el promedio.",
+    "category": "estructuras_datos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 113,
+    "title": "Set de palabras únicas",
+    "summary": "Almacena palabras sin repetición",
+    "description": "Crea un programa que use un HashSet para almacenar palabras introducidas por el usuario y muestre solo las únicas.",
+    "category": "estructuras_datos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 114,
+    "title": "Cola de impresión",
+    "summary": "Simula trabajos en una cola de impresión",
+    "description": "Crea un programa que use una Queue para simular trabajos enviados a una impresora. Cada trabajo tiene nombre y páginas.",
+    "category": "estructuras_datos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 115,
+    "title": "Pila de navegador",
+    "summary": "Simula el historial de navegación",
+    "description": "Crea un programa que use una Stack para simular el historial de un navegador. Permite visitar páginas y retroceder.",
+    "category": "estructuras_datos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 116,
+    "title": "Recursividad factorial",
+    "summary": "Calcula factorial con recursividad",
+    "description": "Implementa un método recursivo que calcule el factorial de un número.",
+    "category": "recursividad",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 117,
+    "title": "Recursividad Fibonacci",
+    "summary": "Serie Fibonacci recursiva",
+    "description": "Implementa un método recursivo que devuelva el n-ésimo número de la serie Fibonacci.",
+    "category": "recursividad",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 118,
+    "title": "Recursividad suma de dígitos",
+    "summary": "Suma de dígitos recursiva",
+    "description": "Implementa un método recursivo que sume los dígitos de un número entero.",
+    "category": "recursividad",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 119,
+    "title": "Recursividad invertir cadena",
+    "summary": "Invierte un string recursivamente",
+    "description": "Implementa un método recursivo que invierta un string.",
+    "category": "recursividad",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 120,
+    "title": "Recursividad Torres de Hanoi",
+    "summary": "Resuelve el problema clásico de las Torres de Hanoi",
+    "description": "Escribe un programa recursivo que resuelva el problema de las Torres de Hanoi con N discos.",
+    "category": "recursividad",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 121,
+    "title": "Clase Fracción",
+    "summary": "Modela fracciones con operaciones",
+    "description": "Crea una clase Fraccion con atributos numerador y denominador. Implementa métodos para sumar, restar, multiplicar y dividir fracciones.",
+    "category": "poo",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 122,
+    "title": "Clase Vector3D",
+    "summary": "Modela un vector en 3D",
+    "description": "Crea una clase Vector3D con atributos x, y, z. Implementa métodos para calcular módulo, suma y producto escalar con otro vector.",
+    "category": "poo",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 123,
+    "title": "Ordenar lista de objetos",
+    "summary": "Ordena objetos usando Comparable",
+    "description": "Crea una clase Producto con atributos nombre y precio. Implementa la interfaz Comparable para poder ordenar una lista de productos por precio.",
+    "category": "estructuras_datos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 124,
+    "title": "Buscar objeto en lista",
+    "summary": "Búsqueda de objetos por atributo",
+    "description": "Crea un programa que almacene objetos Persona en una lista y permita buscar uno por nombre.",
+    "category": "estructuras_datos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 125,
+    "title": "Filtrar objetos en lista",
+    "summary": "Filtra elementos de una lista",
+    "description": "Crea un programa que almacene objetos Estudiante en una lista y devuelva solo aquellos con promedio mayor a 7.",
+    "category": "estructuras_datos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+{
+    "id": 126,
+    "title": "Sistema de facturación simple",
+    "summary": "Crea un sistema que permita facturar productos y calcular el total con IVA.",
+    "description": "Solicita al usuario ingresar productos con su precio. Al finalizar, muestra el total sin IVA, el IVA aplicado y el total a pagar.",
+    "category": "POO_arrays",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 127,
+    "title": "Conversor de bases",
+    "summary": "Convierte un número decimal a binario, octal y hexadecimal.",
+    "description": "Escribe un programa que tome un número decimal y lo muestre en diferentes bases numéricas.",
+    "category": "metodos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 128,
+    "title": "Analizador de texto",
+    "summary": "Cuenta vocales, consonantes, espacios y caracteres especiales en un texto.",
+    "description": "El usuario ingresa una cadena y el programa muestra estadísticas de la misma.",
+    "category": "strings",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 129,
+    "title": "Sistema de notas avanzado",
+    "summary": "Gestión de notas de estudiantes con promedio, máximo y mínimo.",
+    "description": "Permite registrar alumnos y sus notas, luego calcula estadísticas y muestra el resultado.",
+    "category": "POO_arrays",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 130,
+    "title": "Juego del Ahorcado",
+    "summary": "Implementa el clásico juego del ahorcado en consola.",
+    "description": "El programa debe seleccionar una palabra aleatoria y permitir al usuario adivinarla letra por letra.",
+    "category": "juegos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 131,
+    "title": "Gestor de biblioteca",
+    "summary": "Sistema para registrar libros, autores y disponibilidad.",
+    "description": "Permite añadir libros, consultar por título o autor y prestar libros a usuarios.",
+    "category": "POO",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 132,
+    "title": "Ordenamiento burbuja",
+    "summary": "Implementa el algoritmo de ordenamiento burbuja.",
+    "description": "Crea un arreglo con números desordenados y ordénalos usando bubble sort.",
+    "category": "algoritmos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 133,
+    "title": "Ordenamiento por inserción",
+    "summary": "Implementa el algoritmo de ordenamiento por inserción.",
+    "description": "Ordena un arreglo de números con el método de inserción.",
+    "category": "algoritmos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 134,
+    "title": "Búsqueda binaria",
+    "summary": "Implementa el algoritmo de búsqueda binaria.",
+    "description": "Crea un programa que busque un número dentro de un arreglo ordenado usando búsqueda binaria.",
+    "category": "algoritmos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 135,
+    "title": "Matriz traspuesta",
+    "summary": "Obtén la traspuesta de una matriz cuadrada.",
+    "description": "Solicita al usuario ingresar una matriz NxN y genera su traspuesta.",
+    "category": "matrices",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 136,
+    "title": "Determinante de matriz",
+    "summary": "Calcula el determinante de una matriz cuadrada.",
+    "description": "Permite al usuario ingresar una matriz 2x2 o 3x3 y calcula su determinante.",
+    "category": "matrices",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 137,
+    "title": "Multiplicación de matrices",
+    "summary": "Multiplica dos matrices de tamaños compatibles.",
+    "description": "Solicita al usuario ingresar dos matrices y genera la matriz resultante de su multiplicación.",
+    "category": "matrices",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 138,
+    "title": "Calculadora polaca inversa",
+    "summary": "Implementa una calculadora usando notación polaca inversa (postfija).",
+    "description": "El usuario ingresa una expresión en notación postfija y el programa calcula el resultado usando pilas.",
+    "category": "pilas",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 139,
+    "title": "Expresiones balanceadas",
+    "summary": "Verifica si los paréntesis en una expresión están correctamente balanceados.",
+    "description": "Usa una pila para comprobar si los paréntesis, corchetes y llaves están bien colocados.",
+    "category": "pilas",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 140,
+    "title": "Sistema de colas en banco",
+    "summary": "Simula la atención de clientes en un banco con colas.",
+    "description": "Usa una estructura de cola para simular la llegada y atención de clientes en un banco.",
+    "category": "colas",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 141,
+    "title": "Agenda de contactos",
+    "summary": "Gestiona contactos con nombre, teléfono y correo.",
+    "description": "Permite agregar, buscar, editar y eliminar contactos de una agenda.",
+    "category": "POO",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 142,
+    "title": "Inventario de tienda",
+    "summary": "Gestiona el inventario de productos en una tienda.",
+    "description": "Permite agregar productos, actualizar stock, vender y mostrar el inventario.",
+    "category": "POO_arrays",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 143,
+    "title": "Juego de dados",
+    "summary": "Simula un juego de dados entre varios jugadores.",
+    "description": "Cada jugador lanza dos dados y gana el que obtenga la mayor suma.",
+    "category": "juegos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 144,
+    "title": "Sistema de reservas",
+    "summary": "Reserva asientos en un cine.",
+    "description": "Permite reservar y cancelar asientos, verificando disponibilidad en una matriz.",
+    "category": "matrices",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 145,
+    "title": "Conversor de temperatura avanzado",
+    "summary": "Convierte entre Celsius, Fahrenheit, Kelvin y Rankine.",
+    "description": "El usuario ingresa un valor y una unidad y el programa convierte a todas las demás unidades.",
+    "category": "metodos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 146,
+    "title": "Simulación de cajero automático",
+    "summary": "Crea un sistema que permita depósitos, retiros y consulta de saldo.",
+    "description": "El usuario puede crear una cuenta con saldo inicial y luego interactuar con el cajero.",
+    "category": "POO",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 147,
+    "title": "Sistema de login",
+    "summary": "Crea un sistema de autenticación con usuarios y contraseñas.",
+    "description": "Permite registrar usuarios, iniciar sesión y validar credenciales.",
+    "category": "POO",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 148,
+    "title": "Juego de tres en raya",
+    "summary": "Implementa el clásico juego de Tic-Tac-Toe.",
+    "description": "Dos jugadores juegan alternando turnos en una matriz 3x3 hasta que haya un ganador.",
+    "category": "juegos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 149,
+    "title": "Sistema de calificaciones por curso",
+    "summary": "Gestiona cursos y estudiantes con notas.",
+    "description": "Cada curso tiene varios alumnos, cada alumno tiene varias notas. Calcula promedios por alumno y por curso.",
+    "category": "POO",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 150,
+    "title": "Mini red social",
+    "summary": "Simula una red social con usuarios y publicaciones.",
+    "description": "Permite registrar usuarios, crear publicaciones, dar 'like' y mostrar el feed de noticias.",
+    "category": "POO",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+},
+{
+    "id": 151,
+    "title": "Ordenamiento por selección (Selection Sort)",
+    "summary": "Ordena un arreglo usando el algoritmo de selección",
+    "description": "Crea un programa que reciba un arreglo de números y lo ordene usando Selection Sort. Muestra el arreglo antes y después de ordenarlo.",
+    "category": "algoritmos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 152,
+    "title": "Ordenamiento QuickSort",
+    "summary": "Ordena un arreglo usando QuickSort recursivo",
+    "description": "Implementa el algoritmo QuickSort para ordenar un arreglo de números enteros. Elige un pivote y divide recursivamente el arreglo en subarreglos.",
+    "category": "algoritmos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 153,
+    "title": "Ordenamiento MergeSort",
+    "summary": "Ordena un arreglo usando MergeSort recursivo",
+    "description": "Implementa el algoritmo MergeSort. Divide el arreglo en mitades, ordénalas recursivamente y luego combina los resultados.",
+    "category": "algoritmos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 154,
+    "title": "Ordenamiento HeapSort",
+    "summary": "Ordena un arreglo usando HeapSort",
+    "description": "Implementa HeapSort para ordenar un arreglo de enteros. Construye un heap máximo y extrae elementos para obtener el arreglo ordenado.",
+    "category": "algoritmos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 155,
+    "title": "Búsqueda lineal",
+    "summary": "Busca un elemento en un arreglo usando búsqueda lineal",
+    "description": "Crea un programa que reciba un arreglo y un valor, y busque el valor recorriendo el arreglo secuencialmente. Devuelve el índice si lo encuentra o -1 si no.",
+    "category": "algoritmos",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 156,
+    "title": "Búsqueda binaria en arreglo ordenado",
+    "summary": "Busca un elemento usando búsqueda binaria",
+    "description": "Implementa búsqueda binaria en un arreglo ordenado. Recibe un arreglo y un valor, y devuelve el índice si se encuentra o -1 si no.",
+    "category": "algoritmos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+   {
+    "id": 157,
+    "title": "Implementar una Pila",
+    "summary": "Crear una pila con operaciones push, pop y peek",
+    "description": "Implementa una clase que simule una pila (LIFO). Debe permitir apilar (push), desapilar (pop) y consultar el elemento superior (peek).",
+    "category": "estructuras_datos",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 158,
+    "title": "Implementar una Cola",
+    "summary": "Crear una cola con operaciones enqueue y dequeue",
+    "description": "Crea una clase que simule una cola (FIFO). Debe permitir encolar elementos (enqueue) y desencolar (dequeue).",
+    "category": "estructuras_datos",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 159,
+    "title": "Deque en Java",
+    "summary": "Permitir inserciones y eliminaciones en ambos extremos",
+    "description": "Implementa un deque (doble cola) que permita agregar y quitar elementos tanto al inicio como al final.",
+    "category": "estructuras_datos",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 160,
+    "title": "Cola de Prioridad",
+    "summary": "Simular un sistema de turnos con prioridad",
+    "description": "Crea una cola de prioridad donde los elementos con mayor prioridad se atienden primero, simulando un sistema de tickets.",
+    "category": "estructuras_datos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 161,
+    "title": "Lista Enlazada Simple",
+    "summary": "Implementar una lista enlazada desde cero",
+    "description": "Crea una clase que represente una lista enlazada simple con operaciones básicas: insertar, eliminar y buscar.",
+    "category": "estructuras_datos",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 162,
+    "title": "Factorial Recursivo",
+    "summary": "Calcular factorial con recursividad",
+    "description": "Escribe un método recursivo que calcule el factorial de un número entero.",
+    "category": "recursividad",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 163,
+    "title": "Fibonacci Recursivo",
+    "summary": "Generar números de Fibonacci con recursión",
+    "description": "Implementa un método recursivo que devuelva el n-ésimo número de la secuencia de Fibonacci.",
+    "category": "recursividad",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 164,
+    "title": "Torres de Hanói",
+    "summary": "Resolver el clásico puzzle de discos con recursión",
+    "description": "Crea un programa que resuelva el problema de las Torres de Hanói para n discos, mostrando los pasos necesarios.",
+    "category": "recursividad",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 165,
+    "title": "Invertir Cadena Recursivamente",
+    "summary": "Dada una cadena, invertirla usando recursividad",
+    "description": "Implementa un método recursivo que reciba una cadena y la devuelva invertida.",
+    "category": "recursividad",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 166,
+    "title": "Máximo Común Divisor (Euclides)",
+    "summary": "Calcular el MCD con el algoritmo de Euclides",
+    "description": "Escribe un programa que calcule el máximo común divisor de dos enteros utilizando el algoritmo de Euclides recursivo.",
+    "category": "matematicas",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 167,
+    "title": "Búsqueda Binaria Iterativa",
+    "summary": "Buscar un elemento en un array ordenado",
+    "description": "Implementa la búsqueda binaria de forma iterativa en un array ordenado.",
+    "category": "busqueda",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 168,
+    "title": "Búsqueda Binaria Recursiva",
+    "summary": "Versión recursiva de la búsqueda binaria",
+    "description": "Implementa la búsqueda binaria usando recursividad para encontrar un número en un array ordenado.",
+    "category": "busqueda",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 169,
+    "title": "Selection Sort",
+    "summary": "Ordenar un array con el método de selección",
+    "description": "Crea un programa que ordene un array de enteros utilizando el algoritmo de ordenamiento por selección.",
+    "category": "ordenamiento",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 170,
+    "title": "Merge Sort",
+    "summary": "Ordenar un array con el algoritmo Merge Sort",
+    "description": "Implementa el algoritmo Merge Sort para ordenar un array de enteros de forma recursiva.",
+    "category": "ordenamiento",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 171,
+    "title": "Quick Sort",
+    "summary": "Ordenar un array con Quick Sort",
+    "description": "Crea un programa que ordene un array usando el algoritmo Quick Sort.",
+    "category": "ordenamiento",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 172,
+    "title": "Heap Sort",
+    "summary": "Ordenar un array con Heap Sort",
+    "description": "Implementa el algoritmo Heap Sort para ordenar un array de enteros.",
+    "category": "ordenamiento",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 173,
+    "title": "Clase Cuenta Bancaria",
+    "summary": "Simular depósitos y retiros en una cuenta",
+    "description": "Crea una clase `CuentaBancaria` con atributos saldo y titular, y métodos para depositar, retirar y consultar saldo.",
+    "category": "poo",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 174,
+    "title": "Clase Empleado",
+    "summary": "Calcular sueldo con bonificaciones",
+    "description": "Define una clase `Empleado` con atributos nombre, salario base y años de antigüedad. Agrega un método que calcule el sueldo final con bonificaciones.",
+    "category": "poo",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 175,
+    "title": "Clase Biblioteca",
+    "summary": "Gestionar préstamos y devoluciones de libros",
+    "description": "Crea una clase `Biblioteca` que contenga una lista de libros. Implementa métodos para prestar, devolver y listar libros disponibles.",
+    "category": "poo",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 176,
+    "title": "Clase Estudiante",
+    "summary": "Calcular promedio de notas",
+    "description": "Define una clase `Estudiante` con atributos nombre y lista de notas. Agrega un método que calcule el promedio.",
+    "category": "poo",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 177,
+    "title": "Simulación Cajero Automático",
+    "summary": "Menú de operaciones bancarias",
+    "description": "Crea un programa que simule un cajero automático con opciones de consultar saldo, retirar, depositar y salir.",
+    "category": "simulacion",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 178,
+    "title": "Sistema de Tickets",
+    "summary": "Atender clientes en una cola",
+    "description": "Simula un sistema de turnos con una cola de clientes, donde se puedan agregar y atender clientes.",
+    "category": "simulacion",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 179,
+    "title": "Juego Piedra-Papel-Tijeras",
+    "summary": "Simular el clásico juego contra la computadora",
+    "description": "Crea un programa que permita jugar piedra-papel-tijeras contra la máquina utilizando números aleatorios.",
+    "category": "simulacion",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 180,
+    "title": "Juego de Dados",
+    "summary": "Lanzar dos dados y evaluar el resultado",
+    "description": "Crea un programa que simule el lanzamiento de dos dados y determine el ganador según el valor obtenido.",
+    "category": "simulacion",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 181,
+    "title": "Carrito de Supermercado",
+    "summary": "Agregar productos y calcular total",
+    "description": "Simula un carrito de compras donde el usuario pueda agregar productos con precio y cantidad, y obtener el total a pagar.",
+    "category": "simulacion",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 182,
+    "title": "Leer Archivo de Texto",
+    "summary": "Contar palabras en un archivo",
+    "description": "Escribe un programa que lea un archivo de texto y cuente cuántas palabras contiene.",
+    "category": "ficheros",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 183,
+    "title": "Guardar Datos en Archivo",
+    "summary": "Guardar nombres y edades en un archivo",
+    "description": "Crea un programa que guarde en un archivo nombres y edades ingresados por el usuario y luego los muestre al leer el archivo.",
+    "category": "ficheros",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 184,
+    "title": "Log de Operaciones",
+    "summary": "Registrar acciones del programa en un archivo",
+    "description": "Implementa un programa que guarde un registro (log) de todas las operaciones realizadas en un archivo de texto.",
+    "category": "ficheros",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 185,
+    "title": "Transponer Matriz",
+    "summary": "Intercambiar filas por columnas",
+    "description": "Crea un programa que reciba una matriz cuadrada y genere su transpuesta.",
+    "category": "matrices",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 186,
+    "title": "Rotar Matriz",
+    "summary": "Rotar una matriz NxN 90 grados",
+    "description": "Escribe un programa que rote una matriz cuadrada NxN en sentido horario 90 grados.",
+    "category": "matrices",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 187,
+    "title": "Multiplicación de Matrices",
+    "summary": "Multiplicar dos matrices",
+    "description": "Crea un programa que multiplique dos matrices compatibles y muestre la matriz resultante.",
+    "category": "matrices",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 188,
+    "title": "Matriz Simétrica",
+    "summary": "Determinar si una matriz es simétrica",
+    "description": "Escribe un programa que determine si una matriz cuadrada es simétrica respecto a su diagonal.",
+    "category": "matrices",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 189,
+    "title": "Sudoku Validador",
+    "summary": "Verificar si una solución de Sudoku es válida",
+    "description": "Crea un programa que verifique si una cuadrícula 9x9 de Sudoku es válida según las reglas del juego.",
+    "category": "puzzles",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 190,
+    "title": "Problema de las N-Reinas",
+    "summary": "Colocar reinas sin atacarse en un tablero",
+    "description": "Implementa un programa que coloque N reinas en un tablero de ajedrez NxN sin que se ataquen entre sí.",
+    "category": "puzzles",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 191,
+    "title": "Adivinar Número",
+    "summary": "Juego de adivinar número con intentos limitados",
+    "description": "Crea un programa donde la computadora genera un número aleatorio y el usuario debe adivinarlo en un número limitado de intentos.",
+    "category": "puzzles",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 192,
+    "title": "Detectar Palíndromos",
+    "summary": "Verificar si una palabra es un palíndromo",
+    "description": "Crea un programa que determine si una palabra o frase es un palíndromo (se lee igual al derecho y al revés).",
+    "category": "cadenas",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 193,
+    "title": "Generar Anagramas",
+    "summary": "Generar todas las permutaciones de una palabra",
+    "description": "Escribe un programa que genere todos los anagramas posibles de una palabra dada.",
+    "category": "cadenas",
+    "difficulty": "dificil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 194,
+    "title": "Contar Caracteres",
+    "summary": "Contar frecuencia de caracteres en una cadena",
+    "description": "Crea un programa que cuente cuántas veces aparece cada carácter en una cadena y lo muestre en consola.",
+    "category": "cadenas",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 195,
+    "title": "Invertir Palabras en una Frase",
+    "summary": "Invertir el orden de palabras en una frase",
+    "description": "Dada una frase, crea un programa que invierta el orden de las palabras sin invertir cada palabra.",
+    "category": "cadenas",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 196,
+    "title": "Contar Vocales y Consonantes",
+    "summary": "Analizar una cadena para contar vocales y consonantes",
+    "description": "Escribe un programa que cuente la cantidad de vocales y consonantes en una cadena de texto.",
+    "category": "cadenas",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 197,
+    "title": "Simulación de Ascensor",
+    "summary": "Simular el funcionamiento de un ascensor",
+    "description": "Crea un programa que simule un ascensor en un edificio con varios pisos, permitiendo subir, bajar y mostrar el piso actual.",
+    "category": "simulacion",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 198,
+    "title": "Sistema de Votación",
+    "summary": "Recolectar y contar votos",
+    "description": "Implementa un sistema de votación donde los usuarios puedan votar por candidatos y se muestren los resultados al final.",
+    "category": "simulacion",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 199,
+    "title": "Simulación de Semáforo",
+    "summary": "Simular cambios de luces de un semáforo",
+    "description": "Crea un programa que simule el ciclo de un semáforo cambiando entre rojo, verde y amarillo en intervalos de tiempo.",
+    "category": "simulacion",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 200,
+    "title": "Simulación de Parking",
+    "summary": "Gestionar coches entrando y saliendo de un parking",
+    "description": "Escribe un programa que simule un parking con capacidad limitada, permitiendo entrada y salida de coches.",
+    "category": "simulacion",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 201,
+    "title": "Criba de Eratóstenes",
+    "summary": "Encontrar todos los números primos hasta N",
+    "description": "Implementa el algoritmo de la Criba de Eratóstenes para obtener todos los números primos menores a N.",
+    "category": "matematicas",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 202,
+    "title": "Número Perfecto",
+    "summary": "Verificar si un número es perfecto",
+    "description": "Un número es perfecto si es igual a la suma de sus divisores propios. Implementa un programa que verifique si un número es perfecto.",
+    "category": "matematicas",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 203,
+    "title": "Número Amigable",
+    "summary": "Verificar si dos números son amigos",
+    "description": "Dos números son amigos si la suma de los divisores propios de uno es igual al otro. Implementa un programa que lo verifique.",
+    "category": "matematicas",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 204,
+    "title": "Número Armstrong",
+    "summary": "Verificar si un número es Armstrong",
+    "description": "Un número Armstrong es aquel que es igual a la suma de sus dígitos elevados a la cantidad de dígitos. Implementa un programa que verifique si un número lo es.",
+    "category": "matematicas",
+    "difficulty": "medio",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 205,
+    "title": "Conversión Binario-Decimal",
+    "summary": "Convertir entre decimal y binario",
+    "description": "Crea un programa que convierta un número decimal a binario y viceversa.",
+    "category": "matematicas",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  },
+  {
+    "id": 206,
+    "title": "Conversión Decimal-Hexadecimal",
+    "summary": "Convertir entre decimal y hexadecimal",
+    "description": "Crea un programa que convierta un número decimal a hexadecimal y viceversa.",
+    "category": "matematicas",
+    "difficulty": "facil",
+    "solution": "",
+    "completed": false
+  }
+]

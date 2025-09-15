@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/imgs/Foto.png">
+    <title>Redes Sociales || Coding With Adri - Conecta Conmigo</title>
+    <link rel="stylesheet" href="assets/css/Socials.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="./Index.html" class="logo">
+                <img src="assets/imgs/Foto.png" alt="Logo" style="width: 50px;">
+                Coding With Adri
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="Portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="Write-up.html" class="nav-link">Write-ups</a></li>
+                <li><a href="Retos.html" class="nav-link">Retos</a></li>
+                <li><a href="Blog.html" class="nav-link">Blog</a></li>
+                <li><a href="Socials.html" class="nav-link active">Social</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Socials Hero -->
+    <section class="socials-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">🌐 Mis Redes Sociales</h1>
+                <p class="hero-subtitle">
+                    Únete a nuestra comunidad de desarrolladores y entusiastas de la ciberseguridad. 
+                    Comparto conocimiento, tutoriales y experiencias en vivo. ¡Conectemos y aprendamos juntos!
+                </p>
+                <div class="quick-links">
+                    <a href="#youtube" class="quick-link youtube">
+                        📺 YouTube
+                        <span>20+ Videos</span>
+                    </a>
+                    <a href="#twitch" class="quick-link twitch">
+                        🎮 Twitch
+                        <span>Streams en Vivo</span>
+                    </a>
+                    <a href="#discord" class="quick-link discord">
+                        💬 Discord
+                        <span>Únete al Server</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item youtube-stat">
+                    <span class="stat-number">17</span>
+                    <span class="stat-label">Suscriptores YouTube</span>
+                </div>
+                <div class="stat-item twitch-stat">
+                    <span class="stat-number">64</span>
+                    <span class="stat-label">Seguidores Twitch</span>
+                </div>
+                <div class="stat-item discord-stat">
+                    <span class="stat-number">0</span>
+                    <span class="stat-label">Miembros Discord</span>
+                </div>
+                <div class="stat-item general-stat">
+                    <span class="stat-number">15</span>
+                    <span class="stat-label">Horas de Contenido</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="container">
+            <!-- YouTube Section -->
+            <div class="section youtube-section" id="youtube">
+                <div class="videos-grid" id="videos-container"></div>
+            </div>
+
+            <!-- Twitch Section -->
+            <section id="twitch" class="section twitch-section">
+                <div class="section-header">
+                    <h2 class="section-title twitch">
+                        🎮 Canal de Twitch
+                    </h2>
+                    <p class="section-description">
+                        Streams en vivo resolviendo CTFs, programando proyectos y explorando nuevas tecnologías. 
+                        ¡Únete a la comunidad y aprende en tiempo real!
+                    </p>
+                </div>
+
+                <div class="twitch-content">
+                    <div class="twitch-info">
+                        <h3>🔴 Streaming Schedule</h3>
+                        <p>
+                            Cada semana tenemos sesiones en vivo donde resolvemos challenges de CTF, 
+                            desarrollamos proyectos de ciberseguridad y respondemos preguntas de la comunidad. 
+                            Los streams son interactivos, así que puedes participar y aprender conmigo.
+                        </p>
+                        
+                        <div class="stream-schedule">
+                            <h4 style="color: var(--twitch); margin-bottom: 1rem; text-align: center;">📅 Horarios de Stream</h4>
+                            <div class="schedule-item">
+                                <span class="schedule-day">Lunes</span>
+                                <span class="schedule-time">20:00 - 22:00 CET</span>
+                            </div>
+                            <div class="schedule-item">
+                                <span class="schedule-day">Miércoles</span>
+                                <span class="schedule-time">19:00 - 21:00 CET</span>
+                            </div>
+                            <div class="schedule-item">
+                                <span class="schedule-day">Viernes</span>
+                                <span class="schedule-time">20:30 - 23:00 CET</span>
+                            </div>
+                            <div class="schedule-item">
+                                <span class="schedule-day">Sábado</span>
+                                <span class="schedule-time">16:00 - 19:00 CET</span>
+                            </div>
+                        </div>
+
+                        <div style="text-align: center; margin-top: 2rem;">
+                            <a href="https://www.twitch.tv/coding_with_adri" class="quick-link twitch" style="display: inline-flex;">
+                                🔴 Seguir en Twitch
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="twitch-embed">
+                        <div class="live-indicator">🔴 LIVE</div>
+                        🎮
+                    </div>
+                </div>
+
+                <!-- Recent Streams -->
+                <div style="margin-top: 3rem;">
+                    <h3 style="color: var(--twitch); text-align: center; margin-bottom: 2rem; font-size: 1.8rem;">
+                        🎥 Streams Recientes
+                    </h3>
+                    <div class="videos-grid">
+                        <div class="video-card">
+                            <div class="video-thumbnail" style="background: var(--gradient-twitch);">
+                                🎯
+                                <div class="play-button">▶</div>
+                                <div class="video-duration">2:15:30</div>
+                            </div>
+                            <div class="video-content">
+                                <h3 class="video-title">HackTheBox - Resolviendo Machines en Vivo</h3>
+                                <div class="video-meta">
+                                    <span>Stream hace 2 días</span>
+                                    <span>3,247 espectadores</span>
+                                </div>
+                                <p class="video-description">
+                                    Session épica resolviendo 3 máquinas de HackTheBox con la ayuda del chat...
+                                </p>
+                                <div class="video-tags">
+                                    <span class="video-tag" style="background: rgba(145, 70, 255, 0.1); color: var(--twitch);">HTB</span>
+                                    <span class="video-tag" style="background: rgba(145, 70, 255, 0.1); color: var(--twitch);">Live Hacking</span>
+                                    <span class="video-tag" style="background: rgba(145, 70, 255, 0.1); color: var(--twitch);">Pentesting</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="video-card">
+                            <div class="video-thumbnail" style="background: var(--gradient-twitch);">
+                                🚀
+                                <div class="play-button">▶</div>
+                                <div class="video-duration">1:45:22</div>
+                            </div>
+                            <div class="video-content">
+                                <h3 class="video-title">Coding Session - Desarrollando Bot de Discord</h3>
+                                <div class="video-meta">
+                                    <span>Stream hace 1 semana</span>
+                                    <span>2,891 espectadores</span>
+                                </div>
+                                <p class="video-description">
+                                    Creamos un bot de Discord desde cero para automatizar tareas del servidor...
+                                </p>
+                                <div class="video-tags">
+                                    <span class="video-tag" style="background: rgba(145, 70, 255, 0.1); color: var(--twitch);">Python</span>
+                                    <span class="video-tag" style="background: rgba(145, 70, 255, 0.1); color: var(--twitch);">Discord Bot</span>
+                                    <span class="video-tag" style="background: rgba(145, 70, 255, 0.1); color: var(--twitch);">Live Coding</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Discord Section -->
+            <section id="discord" class="section discord-section">
+                <div class="section-header">
+                    <h2 class="section-title discord">
+                        💬 Servidor de Discord
+                    </h2>
+                    <p class="section-description">
+                        Únete a nuestra comunidad de más de 3 miembros. Comparte conocimientos, 
+                        resuelve dudas y participa en eventos exclusivos.
+                    </p>
+                </div>
+
+                <div class="discord-content">
+                    <div class="discord-widget">
+                        <div class="server-info">
+                            <div class="server-icon">
+                                <img src="assets/imgs/Foto.png" alt="Server_log" style="width: 100px;border-radius: 50%;">
+                            </div>
+                            <div class="server-details">
+                                <h4>⌨ 🎧|| Coding With Adri || 🎧⌨</h4>
+                                <div class="server-members">
+                                    <span class="members-online">🟢 3 online</span>
+                                    <span style="color: var(--text-secondary);"> • 4 members</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <p style="color: var(--text-secondary); text-align: center; margin-bottom: 2rem;">
+                            Una comunidad activa y amigable donde compartimos conocimiento sobre 
+                            programación, ciberseguridad y tecnología en general.
+                        </p>
+
+                        <a href="https://discord.gg/SVTVKd6X" class="join-button">
+                            💬 Unirse al Servidor
+                        </a>
+                    </div>
+
+                    <div class="discord-features">
+                        <div class="feature-card">
+                            <div class="feature-icon">📚</div>
+                            <h4 class="feature-title">Canales Educativos</h4>
+                            <p class="feature-description">
+                                Recursos, tutoriales y materiales de estudio organizados por temas
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">🤝</div>
+                            <h4 class="feature-title">Ayuda & Soporte</h4>
+                            <p class="feature-description">
+                                Obtén ayuda con tus proyectos y dudas de programación
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">🏆</div>
+                            <h4 class="feature-title">CTF Team</h4>
+                            <p class="feature-description">
+                                Participa en competiciones de CTF con el equipo del servidor
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">🎉</div>
+                            <h4 class="feature-title">Eventos</h4>
+                            <p class="feature-description">
+                                Workshops, hackathons y eventos exclusivos para miembros
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">💼</div>
+                            <h4 class="feature-title">Oportunidades</h4>
+                            <p class="feature-description">
+                                Ofertas de trabajo, freelance y colaboraciones
+                            </p>
+                        </div>
+
+                        <div class="feature-card">
+                            <div class="feature-icon">🎮</div>
+                            <h4 class="feature-title">Gaming Zone</h4>
+                            <p class="feature-description">
+                                Canales para gaming y actividades de relajación
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Follow Section -->
+            <section class="follow-section">
+                <h2 style="color: var(--primary); margin-bottom: 1rem;">🚀 Sígueme en Todas las Plataformas</h2>
+                <p style="color: var(--text-secondary); margin-bottom: 3rem; font-size: 1.1rem;">
+                    No te pierdas ningún contenido. Cada plataforma tiene contenido único y exclusivo.
+                </p>
+
+                <div class="follow-grid">
+                    <div class="follow-card youtube">
+                        <div class="follow-icon">📺</div>
+                        <h4>YouTube</h4>
+                        <p>Tutoriales detallados, cursos completos y contenido educativo de calidad.</p>
+                        <a href="https://www.youtube.com/@CodingWithAdri-s3n" class="follow-btn">Suscribirse</a>
+                    </div>
+
+                    <div class="follow-card twitch">
+                        <div class="follow-icon">🎮</div>
+                        <h4>Twitch</h4>
+                        <p>Streams en vivo, interacción directa y contenido exclusivo en tiempo real.</p>
+                        <a href="https://www.twitch.tv/coding_with_adri" class="follow-btn">Seguir</a>
+                    </div>
+
+                    <div class="follow-card discord">
+                        <div class="follow-icon">💬</div>
+                        <h4>Discord</h4>
+                        <p>Comunidad activa, ayuda instantánea y eventos exclusivos para miembros.</p>
+                        <a href="https://discord.gg/SVTVKd6X" class="follow-btn">Unirse</a>
+                    </div>
+                </div>
+
+                <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border);">
+                    <h3 style="color: var(--primary); margin-bottom: 1rem;">📧 Newsletter Exclusivo</h3>
+                    <p style="color: var(--text-secondary); margin-bottom: 2rem;">
+                        Recibe contenido exclusivo, recursos premium y actualizaciones directamente en tu email.
+                    </p>
+                    <div style="display: flex; gap: 1rem; justify-content: center; align-items: center; flex-wrap: wrap;">
+                        <input type="email" placeholder="tu@email.com" 
+                               style="padding: 1rem 1.5rem; border-radius: 25px; border: 2px solid var(--border); 
+                                      background: var(--bg-dark); color: var(--text-primary); 
+                                      min-width: 300px; font-size: 1rem;">
+                        <button style="padding: 1rem 2rem; border-radius: 25px; border: none; 
+                                       background: var(--gradient-primary); color: var(--bg-dark); 
+                                       font-weight: 600; cursor: pointer; transition: all 0.3s ease;">
+                            📧 Suscribirse
+                        </button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <script src="assets/js/Socials.js"></script>
+</body>
+</html>

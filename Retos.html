@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retos || Coding With Adri - Mis Proyectos</title>
+    <link rel="icon" href="assets/imgs/Foto.png">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/Retos.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="./Index.html" class="logo">
+                <img src="assets/imgs/Foto.png" alt="Logo" style="width: 50px;transform: translateY(10px);">
+                Coding With Adri
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="Portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="Write-up.html" class="nav-link">Write-ups</a></li>
+                <li><a href="Retos.html" class="nav-link active">Retos</a></li>
+                <li><a href="Blog.html" class="nav-link">Blog</a></li>
+                <li><a href="Socials.html" class="nav-link">Social</a></li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <h1>MIS RETOS DE PROGRAMACIÓN</h1>
+                <p>Colección organizada de ejercicios y soluciones en Java</p>
+            </div>
+        </div>
+
+        <div class="loading" id="loadingIndicator">
+            <div>⚡ CARGANDO EJERCICIOS...</div>
+        </div>
+
+        <div class="controls" style="display: none;" id="controlsSection">
+            <div class="filter-section">
+                <div class="filter-title">🔍 FILTRAR POR CATEGORÍA</div>
+                <div class="category-filters" id="categoryFilters">
+                    <!-- Botones de categoría se generarán dinámicamente -->
+                </div>
+                <div class="search-container">
+                    <input type="text" class="search-input" id="searchInput" placeholder="Buscar por título o descripción...">
+                    <button class="clear-btn" onclick="clearFilters()">LIMPIAR</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats" style="display: none;" id="statsSection">
+            <div class="stat-box">
+                <span class="stat-number" id="totalChallenges">0</span>
+                <span class="stat-label">TOTAL</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number" id="visibleChallenges">0</span>
+                <span class="stat-label">MOSTRANDO</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number" id="completedChallenges">0</span>
+                <span class="stat-label">COMPLETADOS</span>
+            </div>
+            <div class="stat-box">
+                <span class="stat-number" id="totalCategories">0</span>
+                <span class="stat-label">CATEGORÍAS</span>
+            </div>
+        </div>
+
+        <div class="challenge-list" id="challengeList">
+            <!-- Los retos se cargarán aquí dinámicamente -->
+        </div>
+
+        <div class="load-more" id="loadMoreIndicator" style="display: none;">
+            <div>📜 Cargando más ejercicios...</div>
+        </div>
+    </div>
+
+    <script src="assets/js/Retos.js"></script>
+</body>
+</html>

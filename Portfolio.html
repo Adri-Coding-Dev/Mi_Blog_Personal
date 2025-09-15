@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/imgs/Foto.png">
+    <title>Portfolio || Coding With Adri - Mis Proyectos</title>
+    <link rel="stylesheet" href="assets/css/Portfolio.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="./Index.html" class="logo">
+                <img src="assets/imgs/Foto.png" alt="Logo">
+                Coding With Adri
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="Portfolio.html" class="nav-link active">Portfolio</a></li>
+                <li><a href="Write-up.html" class="nav-link">Write-ups</a></li>
+                <li><a href="Retos.html" class="nav-link">Retos</a></li>
+                <li><a href="Blog.html" class="nav-link">Blog</a></li>
+                <li><a href="Socials.html" class="nav-link">Social</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Portfolio Hero -->
+    <section class="portfolio-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Mi Portfolio</h1>
+                <p class="hero-subtitle">
+                    Una colección de mis proyectos más destacados en desarrollo web, 
+                    ciberseguridad y herramientas de hacking ético. Cada proyecto refleja 
+                    mi pasión por la tecnología y mi compromiso con la excelencia.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number">11</span>
+                    <span class="stat-label">Proyectos Completados</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">7</span>
+                    <span class="stat-label">Tecnologías Dominadas</span>
+                </div>
+                
+                <div class="stat-item">
+                    <span class="stat-number">1+</span>
+                    <span class="stat-label">Años de Experiencia</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🚀 Proyectos Destacados</h2>
+                <p class="section-description">
+                    Explora mis trabajos más significativos, desde aplicaciones web hasta herramientas de ciberseguridad
+                </p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="web">Desarrollo Web</button>
+                <button class="filter-btn" data-filter="security">Ciberseguridad</button>
+                <button class="filter-btn" data-filter="app">Aplicacion</button>
+                <button class="filter-btn" data-filter="ctf">CTF Tools</button>
+            </div>
+
+            <!-- Featured Project -->
+            <div class="featured-project">
+                <div class="featured-badge">Proyecto Destacado</div>
+                <div class="featured-content">
+                    <div class="featured-info">
+                        <h3>Ajedrez en Java</h3>
+                        <div class="project-category">Aplicación • Juego</div>
+                        <p>
+                           Un elegante y completo juego de ajedrez hecho en Java con interfaz gráfica. Ideal para jugar contra otro jugador humano en el mismo equipo. ¡Diseño atractivo, experiencia fluida y completamente funcional!
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Swing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Adri-Coding-Dev/Master_Chess" class="project-link btn-primary" target="_blank">🔗 Ver Demo</a>
+                            <a href="https://github.com/Adri-Coding-Dev/Master_Chess/tree/main/src" class="project-link btn-secondary" target="_blank">💻 Ver Código</a>
+                        </div>
+                    </div>
+                    <div class="featured-image">
+                        <img src="assets/imgs/proyects/Chess.png" alt="chess" style="width: 400px;border-radius: 15px;">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projects Grid -->
+            <div class="projects-grid">
+                <!-- Web Development Projects -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/imgs/proyects/cafeteria.png" alt="Cafeteria" style="width: 400px;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Pagina web Cafeteria</h3>
+                        <div class="project-category">Desarrollo Web</div>
+                        <p class="project-description">
+                            Aplicación web que simula el funcionamiento de una cafetería, permitiendo a los usuarios realizar pedidos y gestionar su cuenta. Utiliza HTML, CSS y JavaScript para ofrecer una experiencia interactiva y educativa
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://adri-coding-dev.github.io/Cafeteria" target="_blank" class="project-link btn-primary">🔗 Ver Sitio</a>
+                            <a href="https://github.com/Adri-Coding-Dev/Cafeteria" target="_blank" class="project-link btn-secondary">💻 Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/imgs/proyects/objetivos.png" alt="Objetivos" style="width: 400px;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">DashBoard de objetivos</h3>
+                        <div class="project-category">Desarrollo Web</div>
+                        <p class="project-description">
+                            Aplicación que ayuda a los usuarios a establecer y seguir sus objetivos personales. Ofrece funcionalidades para definir metas, realizar seguimientos y motivar a los usuarios a alcanzar sus objetivos.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://adri-coding-dev.github.io/DashBoard_Objetivos" class="project-link btn-primary" target="_blank">📊 Demo</a>
+                            <a href="https://github.com/Adri-Coding-Dev/DashBoard_Objetivos" class="project-link btn-secondary" target="_blank">💻 GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/imgs/proyects/login.png" alt="Login" style="width: 400px;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Basic Login</h3>
+                        <div class="project-category">Desarrollo Web</div>
+                        <p class="project-description">
+                            Formulario de inicio de sesión implementado en HTML, CSS y JavaScript. Ofrece una interfaz sencilla y funcional para la autenticación de usuarios, ideal para integrarse en proyectos web que requieran acceso controlado.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://adri-coding-dev.github.io/Basic_Login" class="project-link btn-primary" target="_blank">🛠️ Usar</a>
+                            <a href="https://github.com/Adri-Coding-Dev/Basic_Login" class="project-link btn-secondary" target="_blank">💻 Código</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/imgs/proyects/datos.png" alt="datos" style="width: 300px;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Verificador de Datos</h3>
+                        <div class="project-category">Desarrollo Web</div>
+                        <p class="project-description">
+                            Aplicación web que verifica campos para validar la entrada a la pagina.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://adri-coding-dev.github.io/Verificador_Datos" class="project-link btn-primary" target="_blank">🚀 Demo</a>
+                            <a href="https://github.com/Adri-Coding-Dev/Verificador_Datos" class="project-link btn-secondary" target="_blank">💻 Repo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="ctf">
+                    <div class="project-image">
+                        <img src="assets/imgs/proyects/writeups.png" alt="write-ups" style="width: 400px;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">CTF Writeup</h3>
+                        <div class="project-category">CTF Tools</div>
+                        <p class="project-description">
+                            Repositorio donde subo mis maquinas CTFs resueltas
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">DockerLabs</span>
+                            <span class="tech-tag">GitHub</span>
+                            <span class="tech-tag">Markdown</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Adri-Coding-Dev/Mis_write-ups/blob/main/DockerLabs/Injection/writeup.md" class="project-link btn-primary" target="_blank">📝 Probar</a>
+                            <a href="https://github.com/Adri-Coding-Dev/Mis_write-ups" class="project-link btn-secondary" target="_blank">💻 GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="app">
+                    <div class="project-image">
+                        <img src="assets/imgs/proyects/java_curso.png" alt="curso-java" style="width: 400px;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Curso de Youtube de Java</h3>
+                        <div class="project-category">Desarrollo de Aplicaciones</div>
+                        <p class="project-description">
+                            Lista de videos explicativos que se publican en mi canal de Youtube para enseñar Java desde 0
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Youtube</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.youtube.com/watch?v=Qlcf3ODvUMI&list=PLdZNEUB9bY935wlLEYXX6GHj2COBU5ga3" class="project-link btn-primary" target="_blank">📝 Probar</a>
+                            <a href="https://github.com/Adri-Coding-Dev/De_0_a_Java" target="_blank" class="project-link btn-secondary">💻 GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-category="ctf">
+                    <div class="project-image">
+                        <img src="assets/imgs/proyects/hitos_cyber.png" alt="hitos_cyber" style="width: 400px;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Museo de logros de Ciberseguridad</h3>
+                        <div class="project-category">Desarrollo Web</div>
+                        <p class="project-description">
+                            Pagina donde subo mis hitos cada vez que consigo vulnerar una maquina
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">CTF</span>
+                            <span class="tech-tag">Pentesting</span>
+                            <span class="tech-tag">Markdown</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://adri-coding-dev.github.io/Galleria_De_Hitos_Ciberseguridad" class="project-link btn-primary" target="_blank">📝 Probar</a>
+                            <a href="https://github.com/Adri-Coding-Dev/Galleria_De_Hitos_Ciberseguridad" class="project-link btn-secondary" target="_blank">💻 GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/imgs/proyects/nosecuantos.png" alt="nosecuantos" style="width: 400px;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Modernizacion de Nosecuantos</h3>
+                        <div class="project-category">Desarrollo Web</div>
+                        <p class="project-description">
+                            Pagina modernizada de Nosecuantos (NO OFICIAL)
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://adri-coding-dev.github.io/Nosecuantos_Prev" target="_blank" class="project-link btn-primary">📝 Probar</a>
+                            <a href="https://github.com/Adri-Coding-Dev/Nosecuantos_Prev" target="_blank" class="project-link btn-secondary">💻 GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/imgs/proyects/apple.png" alt="iphone" style="width: 400px;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Emulador de Iphone</h3>
+                        <div class="project-category">Desarrollo Web</div>
+                        <p class="project-description">
+                            Panel donde se muesta la animacion de iphone + carga de escritorio
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://adri-coding-dev.github.io/Emulator_Mobile" target="_blank" class="project-link btn-primary">📝 Probar</a>
+                            <a href="https://github.com/Adri-Coding-Dev/Emulator_Mobile?tab=readme-ov-file" class="project-link btn-secondary" target="_blank">💻 GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <img src="assets/imgs/proyects/asador.png" alt="asador" style="width: 400px;">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Modernizacion de Asador el Paraiso</h3>
+                        <div class="project-category">Desarrollo Web</div>
+                        <p class="project-description">
+                            Pagina actualizada del antiguo restaurante Asador el Paraiso
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://adri-coding-dev.github.io/Asador_El_Paraiso" target="_blank" class="project-link btn-primary">📝 Probar</a>
+                            <a href="https://github.com/Adri-Coding-Dev/Asador_El_Paraiso?tab=readme-ov-file" class="project-link btn-secondary" target="_blank">💻 GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <div class="contact-section">
+                <h2>💡 ¿Tienes un proyecto en mente?</h2>
+                <p>
+                    Estoy siempre interesado en nuevos desafíos y colaboraciones. 
+                    ¡Contactemos y creemos algo increíble juntos!
+                </p>
+                <div class="contact-buttons">
+                    <a href="mailto:adricoding647@gmail.com" class="contact-btn btn-primary">
+                        📧 Enviar Email
+                    </a>
+                    <a href="#" class="contact-btn btn-secondary">
+                        💬 Redes Sociales
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/Portfolio.js"></script>
+</body>
+</html>

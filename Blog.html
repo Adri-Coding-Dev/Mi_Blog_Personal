@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/imgs/Foto.png">
+    <title>Blog || Coding With Adri - Mi Diario Tech</title>
+    <!-- Marked.js for Markdown parsing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.2/marked.min.js"></script>
+    <!-- Highlight.js for syntax highlighting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <link rel="stylesheet" href="assets/css/Blog.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="./Index.html" class="logo">
+                <img src="assets/imgs/Foto.png" alt="Logo">
+                Coding With Adri
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="Portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="Write-up.html" class="nav-link">Write-ups</a></li>
+                <li><a href="Retos.html" class="nav-link">Retos</a></li>
+                <li><a href="Blog.html" class="nav-link active">Blog</a></li>
+                <li><a href="Socials.html" class="nav-link">Social</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Blog Hero -->
+    <section class="blog-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Mi Blog Tech</h1>
+                <p class="hero-subtitle">
+                    Comparto mi día a día en el mundo de la ciberseguridad, desarrollo y hacking ético. 
+                    Descubre mis experiencias, aprendizajes, desafíos y reflexiones sobre tecnología.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number" id="totalPosts">0</span>
+                    <span class="stat-label">Posts Publicados</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="totalWords">0</span>
+                    <span class="stat-label">Palabras Escritas</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="totalCategories">0</span>
+                    <span class="stat-label">Categorías</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="avgReadTime">0</span>
+                    <span class="stat-label">Min. Lectura Promedio</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-container">
+                <div class="filter-group">
+                    <label class="filter-label">🔍 Buscar posts</label>
+                    <input type="text" id="searchFilter" class="filter-input" placeholder="Buscar por título o contenido...">
+                </div>
+                <div class="filter-group">
+                    <label class="filter-label">📂 Categoría</label>
+                    <select id="categoryFilter" class="filter-select">
+                        <option value="">Todas las categorías</option>
+                        <option value="Día a día">Día a día</option>
+                        <option value="Tutorial">Tutorial</option>
+                        <option value="Reflexión">Reflexión</option>
+                        <option value="CTF">CTF</option>
+                        <option value="Proyecto">Proyecto</option>
+                        <option value="Noticia">Noticia</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label class="filter-label">⚡ Ordenar por</label>
+                    <div class="sort-buttons">
+                        <button class="sort-btn active" data-sort="date-desc">Más Reciente</button>
+                        <button class="sort-btn" data-sort="date-asc">Más Antiguo</button>
+                        <button class="sort-btn" data-sort="title">Título A-Z</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Posts Section -->
+    <section class="blog-section">
+        <div class="container">
+            <div id="blogGrid" class="blog-grid">
+                <!-- Los posts se cargarán aquí dinámicamente -->
+            </div>
+            <div id="noResults" class="no-results" style="display: none;">
+                <h3>😔 No se encontraron posts</h3>
+                <p>Prueba a ajustar los filtros o buscar con otros términos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Blog Post Viewer -->
+    <div id="blogModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="modal-title" id="modalTitle">Blog Post</span>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div id="blogContent" class="blog-content">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                    </div>
+                </div>
+                <div class="post-footer">
+                    <div class="post-author">
+                        <div class="author-avatar">
+                            <img src="assets/imgs/Foto.png" alt="Logo" style="width: 45px;border-radius: 50%;">
+                        </div>
+                        <div class="author-info">
+                            <h4>Coding With Adri</h4>
+                            <p>Desarrollador & Ethical Hacker</p>
+                        </div>
+                    </div>
+                    <div class="social-share">
+                        <button class="social-btn" title="Compartir en Twitter">🐦</button>
+                        <button class="social-btn" title="Compartir en LinkedIn">💼</button>
+                        <button class="social-btn" title="Copiar enlace">🔗</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/Blog.js"></script>
+</body>
+</html>

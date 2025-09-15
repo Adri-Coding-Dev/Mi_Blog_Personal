@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="assets/imgs/Foto.png">
+    <title>Write-ups || Coding With Adri - Máquinas Vulnerables</title>
+    <!-- Marked.js for Markdown parsing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.2/marked.min.js"></script>
+    <!-- Highlight.js for syntax highlighting -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    <link rel="stylesheet" href="assets/css/Writeup.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="./Index.html" class="logo">
+                <img src="assets/imgs/Foto.png" alt="Logo">
+                Coding With Adri
+            </a>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Inicio</a></li>
+                <li><a href="Portfolio.html" class="nav-link">Portfolio</a></li>
+                <li><a href="Write-up.html" class="nav-link active">Write-ups</a></li>
+                <li><a href="Retos.html" class="nav-link">Retos</a></li>
+                <li><a href="Blog.html" class="nav-link">Blog</a></li>
+                <li><a href="Socials.html" class="nav-link">Social</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="writeups-hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Write-ups de Máquinas</h1>
+                <p class="hero-subtitle">
+                    Documentación completa de mis resoluciones de máquinas vulnerables de plataformas como 
+                    HackTheBox, TryHackMe, VulnHub y más. Cada write-up incluye metodología detallada, 
+                    herramientas utilizadas y técnicas de explotación.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <span class="stat-number" id="totalMachines">0</span>
+                    <span class="stat-label">Máquinas Resueltas</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="totalPlatforms">0</span>
+                    <span class="stat-label">Plataformas</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="totalWriteups">0</span>
+                    <span class="stat-label">Write-ups</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number" id="avgDifficulty">-</span>
+                    <span class="stat-label">Dificultad Media</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-container">
+                <div class="filter-group">
+                    <label class="filter-label">🔍 Buscar por nombre</label>
+                    <input type="text" id="nameFilter" class="filter-input" placeholder="Nombre de la máquina...">
+                </div>
+                <div class="filter-group">
+                    <label class="filter-label">⚡ Dificultad</label>
+                    <select id="difficultyFilter" class="filter-select">
+                        <option value="">Todas las dificultades</option>
+                        <option value="Easy">Fácil</option>
+                        <option value="Medium">Medio</option>
+                        <option value="Hard">Difícil</option>
+                        <option value="Insane">Insano</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label class="filter-label">🏢 Plataforma</label>
+                    <select id="platformFilter" class="filter-select">
+                        <option value="">Todas las plataformas</option>
+                        <option value="HackTheBox">HackTheBox</option>
+                        <option value="TryHackMe">TryHackMe</option>
+                        <option value="VulnHub">VulnHub</option>
+                        <option value="DockerLabs">DockerLabs</option>
+                        <option value="HackMyVM">HackMyVM</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label class="filter-label">💻 Sistema Operativo</label>
+                    <select id="osFilter" class="filter-select">
+                        <option value="">Todos los SO</option>
+                        <option value="Linux">Linux</option>
+                        <option value="Windows">Windows</option>
+                        <option value="FreeBSD">FreeBSD</option>
+                        <option value="Other">Otros</option>
+                    </select>
+                </div>
+            </div>
+            <button class="clear-filters-btn" onclick="clearFilters()">🧹 Limpiar Filtros</button>
+        </div>
+    </section>
+
+    <!-- Machines Section -->
+    <section class="machines-section">
+        <div class="container">
+            <div id="machinesGrid" class="machines-grid">
+                <!-- Las máquinas se cargarán aquí dinámicamente -->
+            </div>
+            <div id="noResults" class="no-results" style="display: none;">
+                <h3>😔 No se encontraron máquinas</h3>
+                <p>Prueba a ajustar los filtros o buscar con otros términos.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal for Markdown Viewer -->
+    <div id="markdownModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="modal-title" id="modalTitle">Write-up</span>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div id="markdownContent" class="markdown-content">
+                    <div class="loading">
+                        <div class="spinner"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/Writeup.js"></script>
+</body>
+</html>
