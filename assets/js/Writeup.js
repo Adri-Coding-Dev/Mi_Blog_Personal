@@ -189,7 +189,7 @@ const machinesData = [
             try {
                 // In a real implementation, you would fetch the actual .md file
                 // For demo purposes, we'll generate sample content
-                const response = await fetch(`/${writeupFile}`);
+                const response = await fetch(writeupFile);
                 const markdownContent = await response.text();
                 
                 // Process images in markdown
