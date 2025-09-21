@@ -496,8 +496,8 @@
     "description": "Escribe un programa que genere un número aleatorio entre 1 y 100 y pida al usuario adivinarlo, mostrando pistas de mayor o menor.",
     "category": "bucles_condicionales",
     "difficulty": "facil",
-    "solution": "",
-    "completed": false
+    "solution": "https://github.com/Adri-Coding-Dev/Retos_Programacion/blob/main/src/faciles/Adivina_El_Numero.java",
+    "completed": true
   },
   {
     "id": 51,
