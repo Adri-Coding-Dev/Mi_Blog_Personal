@@ -4,7 +4,7 @@ const machinesData = [
                 "platform": "DockerLabs",
                 "difficulty": "Easy",
                 "os": "Linux",
-                "image": "assets/imgs/machines/Write_Up_Injection.png",
+                "image": "assets/imgs/machines/Injection.png",
                 "description": "Máquina Linux fácil que involucra explotar vulnerabilidades tipo SQL Injection, con robo de sesion (bypassing) y escalado de privilegios",
                 "tags": ["SQLi", "DockerLabs", "Linux","Facil"],
                 "writeup": "assets/writeups/injection.md",
@@ -16,7 +16,7 @@ const machinesData = [
                 "platform": "DockerLabs",
                 "difficulty": "Easy",
                 "os": "Linux",
-                "image": "assets/imgs/machines/root.png",
+                "image": "assets/imgs/machines/Break_SSH.png",
                 "description": "Máquina Linux fácil que involucra explotar el puerto 22(ssh) para acceder al sistema",
                 "tags": ["DockerLabs", "Facil", "SSH", "Linux"],
                 "writeup": "assets/writeups/breakmyssh.md",
@@ -28,12 +28,24 @@ const machinesData = [
                 "platform": "DockerLabs",
                 "difficulty": "Easy",
                 "os": "Linux",
-                "image": "assets/imgs/machines/Dominio_web.png",
+                "image": "assets/imgs/machines/BorazuwarahCTF.png",
                 "description": "Máquina Linux fácil que involucra explotar el puerto 80 para analizar una imagen con metadatos sensibles",
                 "tags": ["DockerLabs", "Facil", "SSH", "Linux"],
                 "writeup": "assets/writeups/borazuwarahctf.md",
                 "images": [""],
                 "date": "2024-01-15"
+            },
+            {
+                "name": "FirstHacking",
+                "platform": "DockerLabs",
+                "difficulty": "Easy",
+                "os": "Linux",
+                "image": "assets/imgs/machines/FirstHacking.png",
+                "description": "Máquina Linux fácil que involucra explotar el puerto 80 para analizar una imagen con metadatos sensibles",
+                "tags": ["DockerLabs", "Facil", "SSH", "Linux","MetaSploit"],
+                "writeup": "assets/writeups/firsthacking.md",
+                "images": [""],
+                "date": "2025-09-21"
             },
         ];
 

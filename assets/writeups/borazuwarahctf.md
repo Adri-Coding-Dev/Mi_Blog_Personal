@@ -9,9 +9,9 @@
 ```bash
 sudo bash auto_deploy.sh borazuwarahctf.tar
 ```
-![Despliegue](Despliege_Contenedor.png)
+![Despliegue](Borazuwarah_Despliege_Contenedor.png)
 ## Nos da la ip 172.17.0.2, asi que probamos la conectividad:
-![conectividad](Conectividad_maquina_Ctf.png)
+![conectividad](Borazuwarah_Conectividad_maquina_Ctf.png)
 ### (Conectividad con la maquina)
 
 # 2.- Fase de Reconocimiento
@@ -19,23 +19,23 @@ sudo bash auto_deploy.sh borazuwarahctf.tar
 ```bash
 nmap -p- --open -sV --min-rate 5000 -vvv -n 172.17.0.2
 ``` 
-![escaneo](Fase_Reconocimiento_Puertos.png)
+![escaneo](Borazuwarah_Fase_Reconocimiento_Puertos.png)
 ### Vemos que tenemos el puerto 22 abierto, que corresponde a SSH; y el puerto 80 que corresponde a un dominio web, asi que primero vamos a observar la pagina:
-![pagina](Dominio_web.png)
+![pagina](Borazuwarah_Dominio_web.png)
 ### vemos una imagen, por lo que decido descargarla y analizarla:
-![imagen1](metadatos_1_imagen.png)
+![imagen1](Borazuwarah_metadatos_1_imagen.png)
 ### Miramos el contenido de secreto.txt (no nos dice nada) y volvemos a analizar mas detenidamente:
-![imagen2](metadatos_2_imagen.png)
+![imagen2](Borazuwarah_metadatos_2_imagen.png)
 
 # 3.- Usuarios encontrados
 Gracias a analizar la imagen, vemos que dentro de los metadatos de la imagen se esconde un usuario, por lo que probamos fuerza bruta para analizar alguna contraseña correspondida:
-![hydra](fuerza_bruta.png)
+![hydra](Borazuwarah_fuerza_bruta.png)
 ### encontramos la contraseña 123456 asociada al usuario, por lo que lanzamos una ssh con las credenciales que ya tenemos:
-![ssh](ssh_completado.png)
-### De forma exitosa podemos acceder al sistema, con el usuario borazuwarahctf, asi que cvamos a buscar binarios potenciales con permisos administrativos:
-![binarios](binarios_potenciales.png)
+![ssh](Borazuwarah_ssh_completado.png)
+### De forma exitosa podemos acceder al sistema, con el usuario borazuwarahctf, asi que camos a buscar binarios potenciales con permisos administrativos:
+![binarios](Borazuwarah_binarios_potenciales.png)
 ### Encontramos que la bash la podemos ejecutar como administrador sin credenciales, por lo que si ejecutamos la bash y hacemos whoami, podremos ver el usuario root actuando:
-![root](root.png)
+![root](Borazuwarah_root.png)
 ## MAQUINA TERMINADA!!!
 
 # Conclusiones
